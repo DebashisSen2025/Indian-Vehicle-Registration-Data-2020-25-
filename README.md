@@ -1,4 +1,9 @@
-1️⃣ Clean, Resume-Ready Dataset Summary (You can reuse this)
+India’s Vehicle Registration Trends (2020–2025): EV & Fuel Transition Analysis
+📊 SQL, Python, and Power BI project analyzing:
+- Post-COVID growth in registrations
+- EV adoption vs Petrol/Diesel/CNG
+- Manufacturer market share trends
+- Policy impact of BS-VI norms
 
 Indian Vehicle Registration Data (2020–2025)
 This dataset contains Indian RTO-style vehicle registration records from FY 2020 onwards. It captures temporal, geographic, manufacturer, fuel, and regulatory attributes, enabling trend analysis, forecasting, and policy impact studies.
