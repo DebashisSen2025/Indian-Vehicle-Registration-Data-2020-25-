@@ -1,6 +1,11 @@
-## My name is Debashis Sen — Data Analyst
+I need to completely rewrite my README.md to make it 
+recruiter-friendly and professional. 
 
-Please README.md with EXACTLY this structure:
+My name is Debashis Sen — Data Analyst
+LinkedIn: https://www.linkedin.com/in/debashis-sen25
+GitHub: https://github.com/DebashisSen2025
+
+Please rewrite the README.md with EXACTLY this structure:
 
 ─────────────────────────────────────────
 1. HEADER SECTION
@@ -96,3 +101,12 @@ data analytics. I specialize in SQL, Python, Power BI, and Excel.
 - GitHub: https://github.com/DebashisSen2025
 - Email: sen.debashis.sd@gmail.com
 
+─────────────────────────────────────────
+IMPORTANT FORMATTING RULES:
+─────────────────────────────────────────
+- Use emojis only at section headers, not every line
+- Keep language professional and concise
+- All badges must use shields.io format
+- Key Findings must stand out visually (use bold or blockquote style)
+- Make it easy to scan in 30 seconds — recruiters skim fast
+- Do NOT use placeholder text like "coming soon" or "add screenshot here"
