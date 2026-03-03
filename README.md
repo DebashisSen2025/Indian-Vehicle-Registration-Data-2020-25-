@@ -2,7 +2,7 @@
 LinkedIn: https://www.linkedin.com/in/debashis-sen25
 GitHub: https://github.com/DebashisSen2025
 
-Please rewrite the README.md with EXACTLY this structure:
+Please README.md with EXACTLY this structure:
 
 ─────────────────────────────────────────
 1. HEADER SECTION
