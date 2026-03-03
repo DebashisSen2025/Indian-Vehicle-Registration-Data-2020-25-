@@ -1,109 +1,109 @@
-India’s Vehicle Registration Trends (2020–2025): EV & Fuel Transition Analysis
-📊 SQL, Python, and Power BI project analyzing:
-- Post-COVID growth in registrations
-- EV adoption vs Petrol/Diesel/CNG
-- Manufacturer market share trends
-- Policy impact of BS-VI norms
+## My name is Debashis Sen — Data Analyst
+LinkedIn: https://www.linkedin.com/in/debashis-sen25
+GitHub: https://github.com/DebashisSen2025
 
-Indian Vehicle Registration Data (2020–2025)
-This dataset contains Indian RTO-style vehicle registration records from FY 2020 onwards. It captures temporal, geographic, manufacturer, fuel, and regulatory attributes, enabling trend analysis, forecasting, and policy impact studies.
+Please rewrite the README.md with EXACTLY this structure:
 
-It includes:
+─────────────────────────────────────────
+1. HEADER SECTION
+─────────────────────────────────────────
+- Project title: "🚗 Indian Vehicle Registration Trend Analysis (2020–2025)"
+- One line description: "End-to-end EDA project analyzing 500,000+ vehicle 
+  registration records to uncover EV adoption trends, fuel transitions, 
+  and post-COVID recovery patterns across India."
+- Add shield.io badges for:
+  Python | Pandas | NumPy | Matplotlib | Seaborn | SQL | 
+  Jupyter Notebook | Status: Completed
 
-500,000-row sampled transactional dataset for deep exploratory analysis
+─────────────────────────────────────────
+2. PROJECT OVERVIEW
+─────────────────────────────────────────
+- Analyzed 500,000+ Indian vehicle registration records (FY 2020–2025)
+- Tools used: Python (Pandas, NumPy, Matplotlib, Seaborn) and SQL
+- Performed EDA, variance analysis, and trend modeling
+- Dataset source: RTO-style records covering state-wise, manufacturer, 
+  fuel type, and policy attributes
+- Add a table showing:
+  | Detail        | Info                        |
+  | Records       | 500,000+                    |
+  | Time Period   | FY 2020 – 2025              |
+  | Tools         | Python, SQL                 |
+  | Domain        | Automotive / Policy Analysis|
+  | Status        | Completed                   |
 
-Aggregated state–month–fuel dataset for time-series analysis
+─────────────────────────────────────────
+3. KEY FINDINGS (MY REAL RESULTS)
+─────────────────────────────────────────
+Make this section visually highlighted. Include:
+- 🔋 180% YoY growth discovered in Electric Vehicle registrations
+- 🗺️ Identified top 5 states with fastest EV adoption
+- 📈 Found strong post-COVID recovery pattern in registrations (2022–2023)
+- ⛽ Analyzed impact of BS-VI norms on fuel type distribution shift
+- 🏭 Manufacturer market share trends over 5 years
+- 📉 COVID impact clearly visible in 2020–2021 registration dip
 
-Special handling is required for grossVehicleWeight = 0, which indicates non-applicable or unrecorded values (commonly for two-wheelers).
+─────────────────────────────────────────
+4. BUSINESS QUESTIONS ANSWERED
+─────────────────────────────────────────
+Add this as a clean checklist:
+✅ How have vehicle registrations grown post-COVID?
+✅ Which states show fastest EV adoption?
+✅ How is fuel mix (Petrol/Diesel/CNG/EV) shifting over time?
+✅ What is the impact of BS-VI norms on registrations?
+✅ Which manufacturers are gaining/losing market share?
+✅ What are monthly and seasonal registration patterns?
 
-2️⃣ Key Business Questions You Can Answer 🔍
-🚗 Market & Growth
+─────────────────────────────────────────
+5. PROJECT STRUCTURE
+─────────────────────────────────────────
+├── India_Vehicle_Registration_Analysis.ipynb  # Main analysis notebook
+├── vehicle_registration_dataset.zip           # Source dataset (500K rows)
+└── README.md                                  # Project documentation
 
-How have vehicle registrations grown post-COVID (2020–2025)?
+─────────────────────────────────────────
+6. HOW TO RUN
+─────────────────────────────────────────
+Step by step instructions:
+1. Clone the repository
+2. pip install pandas numpy matplotlib seaborn jupyter
+3. Unzip vehicle_registration_dataset.zip
+4. Open India_Vehicle_Registration_Analysis.ipynb in Jupyter
+5. Run all cells
 
-Which states show the fastest growth in registrations?
+─────────────────────────────────────────
+7. SKILLS DEMONSTRATED
+─────────────────────────────────────────
+Add a clean table:
+| Skill                  | Applied                              |
+| Data Cleaning          | Null handling, type conversion       |
+| Exploratory Analysis   | Distribution, correlation, outliers  |
+| Trend Analysis         | YoY growth, CAGR, moving averages    |
+| Data Visualization     | Matplotlib, Seaborn charts           |
+| SQL Analysis           | Aggregations, window functions       |
+| Business Storytelling  | Insight-driven narrative             |
 
-Monthly & seasonal registration patterns
+─────────────────────────────────────────
+8. ABOUT ME
+─────────────────────────────────────────
+👋 Hi, I'm Debashis Sen — a Data Analyst with 3.5 years of business 
+experience in the hospitality industry, now building a career in 
+data analytics. I specialize in SQL, Python, Power BI, and Excel.
 
-⚡ EV & Fuel Transition
+🏆 HackerRank SQL — 5 Star (Advanced Certified)
+📊 11+ real-world analytics projects completed
+🎓 Crio.do NextGen Data Analytics Fellowship
 
-EV adoption trend vs Petrol/Diesel/CNG
+📫 Connect with me:
+- LinkedIn: https://www.linkedin.com/in/debashis-sen25
+- GitHub: https://github.com/DebashisSen2025
+- Email: sen.debashis.sd@gmail.com
 
-State-wise EV penetration
-
-Fuel mix shift after BS-VI norms
-
-🏭 Manufacturer Insights
-
-Top manufacturers by volume & growth
-
-Fuel preference by manufacturer
-
-Market share trends over time
-
-🏛 Policy & Regulation Impact
-
-Impact of BS-VI pollution norms
-
-Pre vs post policy registration spikes
-
-Used vs New vehicle trends
-
-3️⃣ Recommended Data Cleaning Rules 🧹
-1. Treat grossVehicleWeight = 0 as NULL
-2. Convert registrationMonthMMYY → proper date
-3. Validate vehicleCount > 0
-4. Standardize fuel names (EV / Electric)
-5. Remove duplicate state–month–fuel rows (if any)
-
-4️⃣ High-Impact Visualizations 📊
-Must-Have Charts
-
-📈 Monthly registrations (2020–2025)
-
-🗺️ State-wise heatmap of vehicle growth
-
-⚡ EV vs Petrol/Diesel stacked area chart
-
-🏭 Manufacturer market share trend
-
-📉 COVID impact & recovery curve
-
-5️⃣ SQL / Excel / Python Project Ideas (Portfolio-Strong)
-SQL
-
-Top 5 states by YoY growth
-
-Fuel-wise CAGR
-
-Manufacturer-wise market dominance
-
-Rolling 3-month registration averages
-
-Excel / Power BI
-
-Interactive dashboard with:
-
-State slicer
-
-Fuel type filter
-
-Year comparison
-
-EV growth KPI cards
-
-Python
-
-Time-series forecasting (ARIMA / Prophet)
-
-EV adoption prediction
-
-COVID vs post-COVID comparison
-
-6️⃣ Perfect Portfolio Project Titles 💼
-
-“India’s Vehicle Registration Trends (2020–2025): EV & Fuel Transition Analysis”
-
-“Post-COVID Recovery of India’s Automobile Market”
-
-“State-wise EV Adoption and Policy Impact Analysis”
+─────────────────────────────────────────
+IMPORTANT FORMATTING RULES:
+─────────────────────────────────────────
+- Use emojis only at section headers, not every line
+- Keep language professional and concise
+- All badges must use shields.io format
+- Key Findings must stand out visually (use bold or blockquote style)
+- Make it easy to scan in 30 seconds — recruiters skim fast
+- Do NOT use placeholder text like "coming soon" or "add screenshot here"
